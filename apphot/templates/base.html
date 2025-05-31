@@ -1,0 +1,48 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{lang}}">
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="{% static 'css\main.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css\fontawesome-all.min.css' %}">
+	</head>
+	<body class="landing is-preload">
+		<div id="page-wrapper">
+
+                {% block content %}
+          
+                {% endblock content %}
+                <!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<h3>Redes sociais</h3>
+						<li><a href="https://www.instagram.com/eng.gislaineteles" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.linkedin.com/in/gislaine-teles-/" class="icon brands fa-linkedin" target="_blank"><span class="label">Instagram</span></a></li>
+				
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Gislaine Teles Eng. Civil. Todos os direitos reservados.</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/jquery.dropotron.min.js' %}"></script>
+			<script src="{% static 'js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>

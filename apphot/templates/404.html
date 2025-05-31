@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<header id="header" >
+    <a style="text-decoration: none; border: none;" href="{% url 'index' %}"><img style=" width: 10%; " src="{% static 'images/logo-removebg-preview.png' %}" alt="" /></a>
+    <nav id="nav">
+        <ul>
+            <li><a href="{% url 'index' %}"><h3>Inicio</h3></a></li>
+        </ul>
+    </nav>
+</header>
+
+<section  class="container medium">
+
+    <h1>PÁGINA NÃO ENCONTRADA !</h1>
+
+</section>
+
+
+{% endblock content %}
