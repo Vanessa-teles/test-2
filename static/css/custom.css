@@ -16,7 +16,9 @@
 body {
   color: var(--text-color);
 }
-
+body {
+  background: #1a5f7a;
+}
 a {
   color: var(--primary-color);
 }
@@ -885,9 +887,9 @@ select,
 /* Fix for form elements on mobile */
 input, select, textarea {
   font-size: 16px !important; /* Prevent zoom on iOS */
-  -moz-appearance: none;           /* Remove a aparência padrão no Firefox */
-  appearance: none;  /* Propriedade padrão para navegadores modernos */
   -webkit-appearance: none; /* Remove default styling */
+   -moz-appearance: none;  /* Remove a aparência padrão no Firefox */
+  appearance: none;       /* Propriedade padrão para navegadores modernos */
   border-radius: 4px;
 }
 
